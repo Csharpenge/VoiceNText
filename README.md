@@ -1,5 +1,7 @@
 # VoiceNText
 
+**[English](README.md) | [简体中文](README.zh-CN.md)**
+
 Unreal Engine **5.8** plugin for streaming **speech-to-text (ASR)** and **text-to-speech (TTS)** through cloud backends, with microphone capture and procedural audio playback.
 
 Status: **experimental / beta** — the framework is complete and compiles; the bundled `Rest` backend targets generic HTTP services and needs a real endpoint to be useful.
