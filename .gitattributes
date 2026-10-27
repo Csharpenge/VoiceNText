@@ -1,0 +1,16 @@
+# Normalize text files to LF so the plugin is portable across platforms.
+* text=auto
+
+*.uplugin   text eol=lf
+*.h         text eol=lf
+*.cpp       text eol=lf
+*.cs        text eol=lf
+*.md        text eol=lf
+*.gitignore text eol=lf
+*.gitattributes text eol=lf
+
+# Binary assets stay untouched.
+*.png binary
+*.jpg binary
+*.uasset binary
+*.umap binary
